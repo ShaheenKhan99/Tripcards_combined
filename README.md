@@ -52,7 +52,7 @@ Backend deployed on Heroku
 
 ### Schema Design
 
-![DB Schema](Capstone_2_backend/src/DB_Schema_v5.png "DB_Schema diagram")
+![DB Schema](Capstone_2_backend/DB_Schema_v5.png "DB_Schema diagram")
 
 
 ### Screenshots
