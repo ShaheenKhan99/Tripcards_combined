@@ -54,7 +54,7 @@ Backend deployed on Heroku
    
 ### Schema Design
 
-![DB Schema](/DB_Schema_v5.png "DB_Schema diagram")
+![DB Schema](DB_Schema_v5.png "DB_Schema diagram")
 
 
 
