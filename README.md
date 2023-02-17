@@ -57,21 +57,21 @@ Backend deployed on Heroku
 
 ### Screenshots
 
-![Home Page](Capstone_2_frontend/src/readme_images/HomePage.png "HomePage")
+![Home Page](Capstone_2_frontend/tripcards/src/readme_images/HomePage.png "HomePage")
 
-![Yelp Businesses List](Capstone_2_frontend/src/readme_images/YelpBusinessesList.png "Businesses List")
+![Yelp Businesses List](Capstone_2_frontend/tripcards/src/readme_images/YelpBusinessesList.png "Businesses List")
 
-![User Favorites](Capstone_2_frontend/src/readme_images/UserFavorites.png "User Favorites")
+![User Favorites](Capstone_2_frontend/tripcards/src/readme_images/UserFavorites.png "User Favorites")
 
-![Yelp Business Details](Capstone_2_frontend/src/readme_images/YelpBusinessPage.png "Yelp Business Details")
+![Yelp Business Details](Capstone_2_frontend/tripcards/src/readme_images/YelpBusinessPage.png "Yelp Business Details")
 
-![Business Details](Capstone_2_frontend/src/readme_images/BusinessPage.png "Business Details")
+![Business Details](Capstone_2_frontend/tripcards/src/readme_images/BusinessPage.png "Business Details")
 
-![All Tripcards](Capstone_2_frontend/src/readme_images/AllTripcards.png "All Tripcards")
+![All Tripcards](Capstone_2_frontend/tripcards/src/readme_images/AllTripcards.png "All Tripcards")
 
-![Tripcard Page](Capstone_2_frontend/src/readme_images/TripcardPage.png "Tripcard Page")
+![Tripcard Page](Capstone_2_frontend/tripcards/src/readme_images/TripcardPage.png "Tripcard Page")
 
-![My Tripcards](Capstone_2_frontend/src/readme_images/MyTripcards.png "My Tripcards")
+![My Tripcards](Capstone_2_frontend/tripcards/src/readme_images/MyTripcards.png "My Tripcards")
 
 
 
