@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "title": "Root Schema",
+  "type": "object",
+  "default": {},
+  "required": [
+     "destination_id",
+      "user_id",
+      "created_on"
+  ],
+  "properties": {
+      "destination_id": {
+          "title": "The destination_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              234
+          ]
+      },
+      "user_id": {
+          "title": "The user_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              22
+          ]
+      },
+      "username": {
+        "title": "The username Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "harry"
+        ]
+    },
+      "city": {
+        "title": "The city Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "Toronto"
+        ]
+    },
+    "state": {
+        "title": "The state Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "CA"
+        ]
+    },
+    "country": {
+        "title": "The country Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "US"
+        ]
+    },
+      "created_on": {
+          "title": "The created_on Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "October 20, 2022"
+          ]
+      },
+      "keep_private": {
+          "title": "The keep_private Schema",
+          "type": "boolean",
+          "default": false,
+          "examples": [
+              false
+          ]
+      },
+      "has_visited": {
+          "title": "The has_visited Schema",
+          "type": "boolean",
+          "default": false,
+          "examples": [
+              false
+          ]
+      }
+  },
+  "examples": [{
+      "destination_id": 234,
+      "user_id": 22,
+      "username": "harry",
+      "city": "Toronto",
+      "state": "ON",
+      "country": "Canada",
+      "created_on": "October 20, 2022",
+      "keep_private": false,
+      "has_visited": false
+  }]
+}

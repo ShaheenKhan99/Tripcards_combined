@@ -1,0 +1,22 @@
+.TripcardCard-link {
+  text-decoration: none;
+}
+
+.TripcardCard-card {
+  color: white;
+}
+
+
+.TripcardCard-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.TripcardCard-username {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+
+
+

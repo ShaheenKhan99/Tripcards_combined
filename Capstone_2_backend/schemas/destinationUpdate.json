@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "title": "Root Schema",
+  "type": "object",
+  "default": {},
+  "required": [],
+  "additionalProperties": false,
+  "properties": {
+      "city": {
+          "title": "The city Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "San Francisco"
+          ]
+      },
+      "state": {
+          "title": "The state Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "CA"
+          ]
+      },
+      "country": {
+          "title": "The country Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "US"
+          ]
+      },
+      "latitude": {
+        "title": "The latitude Schema",
+        "type": "number",
+        "default": null,
+        "examples": [
+            37.767413217936834
+        ]
+    },
+    "longitude": {
+        "title": "The longitude Schema",
+        "type": "number",
+        "default": null,
+        "examples": [
+            -122.42820739746094
+        ]
+    }
+  },
+  "examples": [{
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "US",
+      "latitude":  37.767413217936834,
+      "longitude": -122.42820739746094
+  }]
+}

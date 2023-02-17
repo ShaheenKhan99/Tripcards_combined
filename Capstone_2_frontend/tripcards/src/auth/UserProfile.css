@@ -1,0 +1,48 @@
+.UserProfile-container {
+  height: 25%;  
+}
+
+
+.UserProfileCardBody {
+  background-color: #71588d;
+  height: 25%;
+  
+}
+
+.UserProfile-Username {
+  color: white;
+}
+
+.UserProfile-fullname {
+  color: white;
+}
+
+.UserProfile-stats {
+  color: white;
+  width: 60%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.UserProfile-About {
+  color: white;
+}
+
+.UserProfile-bio {
+  border: 1px solid white;
+  color: white;
+  
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.UserProfileIcon {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+  .UserProfileIcon {
+    font-size: 20px;
+  }
+}

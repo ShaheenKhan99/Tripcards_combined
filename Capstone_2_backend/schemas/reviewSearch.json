@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "Review Search Schema",
+  "type": "object",
+  "default": {},
+  "required": [],
+  "properties": {
+    "user_id": {
+          "title": "The user_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              12
+          ]
+    },
+    "business_id": {
+          "title": "The business_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              1234
+          ]
+    },
+    "business_name": {
+        "title": "The business_name Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "The Best Restaurant"
+        ]
+    },
+    "username": {
+        "title": "The username Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "harry"
+        ]
+    },
+    "rating": {
+        "title": "The rating Schema",
+        "type": "number",
+        "default": 0,
+        "examples": [
+            4
+        ]
+    }
+  },
+  "examples": [{
+      "user_id": 12,
+      "business_id": 1234,
+      "username": "harry",
+      "business_name": "The Best Restaurant"
+  }]
+}

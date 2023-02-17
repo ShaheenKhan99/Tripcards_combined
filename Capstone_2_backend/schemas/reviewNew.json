@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "Review Schema",
+  "type": "object",
+  "default": {},
+  "required": [
+      "user_id",
+      "business_id",
+      "created_on",
+      "text",
+      "rating"
+  ],
+  "properties": {
+      "user_id": {
+          "title": "The user_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              22
+          ]
+      },
+      "business_id": {
+          "title": "The business_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              234
+          ]
+      },
+      "username": {
+        "title": "The username Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "harry"
+        ]
+    },
+    "business_name": {
+        "title": "The business_name Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "The Restaurant"
+        ]
+    },
+      "created_on": {
+          "title": "The time_created Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "2016-08-29 00:41:13"
+          ]
+      },
+      "text": {
+          "title": "The text Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "Went back again to this place since the last time i visited the bay area 5 months ago..."
+          ]
+      },
+      
+      "image_url": {
+          "title": "The image_url Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "https://s3-media3.fl.yelpcdn.com/photo/iwoAD12zkONZxJ94ChAaMg/o.jpg"
+          ]
+      },
+      "rating": {
+          "title": "The rating Schema",
+          "type": "number",
+          "default": 0,
+          "examples": [
+              4
+          ]
+      }
+  },
+  "examples": [{
+      "user_id": 22,
+      "business_id": 234,
+      "username": "harry",
+      "business_name": "The Best Restaurant",
+      "time_created": "2016-08-29 00:41:13",
+      "text": "Went back again to this place since the last time i visited the bay area 5 months ago...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/photo/iwoAD12zkONZxJ94ChAaMg/o.jpg",
+      "rating": 4
+  }]
+}

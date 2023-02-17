@@ -1,0 +1,25 @@
+.TripcardPage-cardbody { 
+  border-radius: 0;
+  background-color: #8860D0;  
+  align-items: center;
+}
+
+
+.TripcardPage-card {
+  color: white;
+}
+
+.UserProfileIcon {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+  .UserProfileIcon {
+    font-size: 20px;
+  }
+}
+
+.UserProfile-username {
+  font-weight: 600;
+  letter-spacing: 3px;
+}

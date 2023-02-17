@@ -1,0 +1,17 @@
+.Footer-credits {
+  width: 100%;
+  text-align: left;
+  left: 1em;
+  bottom: 0;
+  font-size:small;
+}
+
+.Footer-yelp-icon {
+  height: 1.2rem;
+}
+
+.Footer-photo-credit {
+  text-align: right;
+  right: 1em;
+  bottom: 0;
+}

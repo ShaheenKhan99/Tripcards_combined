@@ -1,0 +1,18 @@
+.BusinessPage-detailsContainer {
+  height: 100%;
+}
+
+.BusinessPage-card {
+ color: #450b45;
+ max-height: 80rem;
+}
+
+
+.BusinessPage-image {
+  height: 25rem;
+  width: 100%;
+}
+
+.BusinessPage-categoryName {
+  text-transform: capitalize;
+}

@@ -1,0 +1,53 @@
+.SearchTripcards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../assets/background_img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 13rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.SearchTripcards-fields {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.SearchTripcards-fields input {
+  width: 14rem;
+  padding: 0.5rem;
+  margin: 0.5rem 2rem 1rem 2rem;
+  border: 1px solid #fff;
+  border-radius: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+.SearchTripcards-search {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+/* On screens that are 560px or less stack items */
+@media only screen and (max-width: 560px) {
+  .SearchTripcards {
+    background-image: url('../assets/background_img.jpg');
+  }
+
+  .SearchTripcards-fields {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .SearchTripcards-fields input {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+

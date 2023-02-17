@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "required": [],
+  "properties": {
+    "yelp_id": {
+        "title": "The yelp_id Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "mm87d"
+        ]
+    },
+      "business_name": {
+          "title": "The business_name Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "Schlepp's"
+          ]
+      },
+      "zip_code": {
+          "title": "The zip_code Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "43718"
+          ]
+      },
+      "rating": {
+          "title": "The rating Schema",
+          "type": "number",
+          "default": 0.0,
+          "examples": [
+              4.0
+          ]
+      },
+      "category_name": {
+        "title": "The category_name Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "coffee"
+        ]
+    },
+    "city": {
+        "title": "The city Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "Buffalo"
+        ]
+    },
+      "category_id": {
+          "title": "The category_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              1234
+          ]
+      },
+      "destination_id": {
+          "title": "The destination_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              123444
+          ]
+      }
+  },
+  "examples": [{
+      "id": 1232,
+      "yelp_id": "viUzwnYWRgwrWGHFTl1uNA",
+      "business_name": "Schlepp's",
+      "city": "Buffalo",
+      "zip_code": "43718",
+      "rating": 4.0,
+      "category_name": "coffee",
+      "category_id": 1234,
+      "destination_id": 123444
+  }]
+}

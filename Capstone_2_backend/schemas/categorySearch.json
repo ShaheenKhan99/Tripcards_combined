@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "Root Schema",
+  "type": "object",
+  "default": {},
+  "required": [],
+  "properties": {
+      "category_name": {
+          "title": "The category_name Schema",
+          "type": "string",
+          "default": "",
+          "examples": [
+              "Active Life"
+          ]
+      }   
+  },
+  "additionalProperties": false,
+  "examples": [{
+      "category_name": "Active Life"
+  }]
+}

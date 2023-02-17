@@ -1,0 +1,19 @@
+.Homepage input:focus {
+  outline: none;
+}
+
+.Homepage-headingDiv {
+  font-weight: 600;
+  color: #450b45;
+}
+
+
+
+.Homepage-noResults {
+  background-color: #5ab9ea;
+  color: #450b45;
+  margin: auto;
+  text-align: center;
+}
+
+

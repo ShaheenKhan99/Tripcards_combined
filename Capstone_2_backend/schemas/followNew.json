@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "title": "Follow Schema",
+  "type": "object",
+  "default": {},
+  "required": [
+      "user_being_followed_id",
+      "user_following_id"
+  ],
+  "properties": {
+      "user_being_followed_id": {
+          "title": "The user_being_followed_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              12
+          ]
+      },
+      "user_following_id": {
+          "title": "The user_following_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              1234
+          ]
+      }
+  },
+  "examples": [{
+      "user_being_followed_id": 12,
+      "user_following_id": 1234
+  }]
+}

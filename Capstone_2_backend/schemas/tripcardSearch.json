@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "required": [],
+  "properties": {
+      "destination_id": {
+          "title": "The destination_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              234
+          ]
+      },
+      "user_id": {
+          "title": "The user_id Schema",
+          "type": "integer",
+          "default": 0,
+          "examples": [
+              22
+          ]
+      },
+      "username": {
+        "title": "The username Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "harry"
+        ]
+    },
+      "city": {
+        "title": "The city Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            22
+        ]
+    },
+    "state": {
+        "title": "The state Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "CA"
+        ]
+    },
+    "country": {
+        "title": "The country Schema",
+        "type": "string",
+        "default": "",
+        "examples": [
+            "US"
+        ]
+    },
+      "has_visited": {
+          "title": "The has_visited Schema",
+          "type": "boolean",
+          "default": false,
+          "examples": [
+              false
+          ]
+      },
+      "keep_private": {
+        "title": "The keep_private Schema",
+        "type": "boolean",
+        "default": false,
+        "examples": [
+            false
+        ]
+    }
+  },
+  "examples": [{
+      "destination_id": 234,
+      "user_id": 22,
+      "city": "Toronto",
+      "username":"harry",
+      "has_visited": false,
+      "keep_private": false
+  }]
+}

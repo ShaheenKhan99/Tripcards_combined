@@ -1,0 +1,25 @@
+.YelpBusinessPage-container {
+  height: 100%;
+}
+
+.YelpBusinessPage-card {
+  color: #450b45;
+  max-height: 80rem;
+  text-transform: capitalize;
+}
+
+
+.YelpBusinessPage-image {
+  height: 30rem;
+  width: 100%;
+}
+
+.YelpBusinessPage-createTripcard {
+  background-color: #f1ddeb;
+  text-align: center;
+  color: #450b45;
+}
+
+.YelpBusinessePage-reviews {
+  color: #450b45;
+}

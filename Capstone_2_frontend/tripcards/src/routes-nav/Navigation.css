@@ -1,0 +1,21 @@
+.Navigation {
+  background: #5ab9ea;
+  background: linear-gradient(90deg, #5ab9ea 0%, #8860d0 25%, #5680e9 100%);
+}
+
+
+.nav-link.active {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar {
+  color: #f1ddeb;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', serif;
+  font-size: 8rem; 
+  font-weight: 700; 
+  letter-spacing: 0.2rem;
+}

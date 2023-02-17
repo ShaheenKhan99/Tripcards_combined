@@ -1,0 +1,194 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "title": "Root Schema",
+    "type": "object",
+    "default": {},
+    "required": [
+        "business_name",
+        "address1",
+        "city",
+        "country"
+    ],
+    "properties": {
+        "yelp_id": {
+            "title": "The yelp_id Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "viUzwnYWRgwrWGHFTl1uNA"
+            ]
+        },
+        "business_name": {
+            "title": "The business_name Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "Schlepp's"
+            ]
+        },
+        "address1": {
+            "title": "The address1 Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "66645 Belmont Morristown Rd"
+            ]
+        },
+        "address2": {
+            "title": "The address2 Schema",
+            "anyOf": [
+                {"type": "number"},
+                {"type": "string"},
+                {"type": "null"}
+              ],
+            "default": null,
+            "examples": [
+                ""
+            ]
+        },
+        "city": {
+            "title": "The city Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "Belmont"
+            ]
+        },
+        "state": {
+            "title": "The state Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "OH"
+            ]
+        },
+        "country": {
+            "title": "The country Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                {"apt number": "23"}
+            ]
+        },
+        "zip_code": {
+            "title": "The zip_code Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "43718"
+            ]
+        },
+        "latitude": {
+            "title": "The latitude Schema",
+            "type": "number",
+            "default": 0.0,
+            "examples": [
+                40.06126
+            ]
+        },
+        "longitude": {
+            "title": "The longitude Schema",
+            "type": "number",
+            "default": 0.0,
+            "examples": [
+                -81.05321
+            ]
+        },
+        "phone": {
+            "title": "The phone Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "(740) 782-1528"
+            ]
+        },
+        "url": {
+            "title": "The url Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "https://www.yelp.com/biz/schlepps-belmont?adjust_creative=pOWQ04ttf2PiQlkZ2L3Juw\u0026utm_campaign=yelp_api_v3\u0026utm_medium=api_v3_business_search\u0026utm_source=pOWQ04ttf2PiQlkZ2L3Juw"
+            ]
+        },
+        "image_url": {
+            "title": "The image_url Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "https://s3-media2.fl.yelpcdn.com/bphoto/CPc91bGzKBe95aM5edjhhQ/o.jpg"
+            ]
+        },
+        "rating": {
+            "title": "The rating Schema",
+            "type": "number",
+            "default": 0.0,
+            "examples": [
+                4.0
+            ]
+        },
+        "yelpReview_count": {
+            "title": "The yelpReview_count Schema",
+            "type": "integer",
+            "default": 0,
+            "examples": [
+                1234
+            ]
+        },
+        "sub_category": {
+            "title": "The sub_category Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "coffee"
+            ]
+        },
+        "category_name": {
+            "title": "The category_name Schema",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "coffee"
+            ]
+        },
+        "category_id": {
+            "title": "The category_id Schema",
+            "type": "integer",
+            "default": 0,
+            "examples": [
+                1234
+            ]
+        },
+        "destination_id": {
+            "title": "The destination_id Schema",
+            "type": "integer",
+            "default": 0,
+            "examples": [
+                123444
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "examples": [{
+        "yelp_id": "FIFIFInvnvnv344ng",
+        "business_name": "Schlepp's",
+        "address1": "66645 Belmont Morristown Rd",
+        "address2": "",
+        "address3": "",
+        "city": "Belmont",
+        "state": "OH",
+        "country": "US",
+        "zip_code": "43718",
+        "latitude": 40.06126,
+        "longitude": -81.05321,
+        "phone": "(740) 782-1528",
+        "url": "https://www.yelp.com/biz/schlepps-belmont?adjust_creative=pOWQ04ttf2PiQlkZ2L3Juw\u0026utm_campaign=yelp_api_v3\u0026utm_medium=api_v3_business_search\u0026utm_source=pOWQ04ttf2PiQlkZ2L3Juw",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/CPc91bGzKBe95aM5edjhhQ/o.jpg",
+        "rating": 4.0,
+        "yelpReview_count": 20,
+        "sub_category": "coffee",
+        "category_name": "food",
+        "category_id": 1234,
+        "destination_id": 123444
+    }]
+}

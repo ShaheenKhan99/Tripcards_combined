@@ -1,0 +1,11 @@
+.NotFound-container {
+  background-color: #8860D0;
+  color: white; 
+}
+
+.NotFound-card {
+  min-height: 75vh;
+  align-items: center;
+}
+
+

@@ -1,0 +1,37 @@
+120. auth.js, authenticateJWT
+This violates DRY.  The common return next() should be pulled out of the try/catch block.
+
+121. business.js, getReviews
+SELECT b.*
+  FROM businesses AS b
+  JOIN reviews as r
+  ON b.id = r.business_id
+  WHERE r.business_id = $1
+This query is just going to get the business record if it has any reviews, but not the reviews themselves.
+
+122. category,js, findAll
+SELECT id, category_name AS "category_name"
+The AS clause is no longer needed.
+
+123. queryValues.push(`%${category_name}%`);
+      whereExpressions.push(`category_name ILIKE $${queryValues.length}`);
+Wouldn't it be easier and clearer to get rid of the first line and have the remaining one reference category_name directly?
+Also--and maybe I'm missing something that explains both of these--why would you be referencing queryValues.length instead of the query value itself?
+This same thing applies in some of the other lookups.
+
+124. follows.js, getAllFollowers
+This throws an exception when there are no followers.  I don't feel strongly about this one, but some theoreticians believe that you shouldn't use exceptions for data-dependent issues such as this; they should only be for things which should really never happen.  Or to put it another way, routine user behavior should never cause an exception.
+
+125. review.js, create
+This checks first if the business exists.  While this makes logical sense, it may not be the best way to do it.  You should be able to set up a dependency in the schema which would throw a SQL error if you try to INSERT a review for a nonexistent business.
+Similarly, with duplicateCheck (and probably some of the other duplicate checks, now that I think of it), you can set up a unique index on the relevant columns and do away with the coding in JS.
+
+126. tripcard.js, findTopDestinations2
+This is definitely an improvement over the original; I think you should get rid of the one without the "2" and rename this.
+
+127. users.js, lines 237-252
+These queries are identical to the ones in follows.js.  Maybe you could reference those instead of repeating them.
+
+128. routes\ and models\ have a lot of the same .js filenames.  That seems to have a lot of potential for confusion, though it's also consistent and easy to remember.  Maybe there's a way to get both.
+
+129. db.js is mostly commented code.  I think that should be removed.  Version control backups should be adequate if you ever need it.
